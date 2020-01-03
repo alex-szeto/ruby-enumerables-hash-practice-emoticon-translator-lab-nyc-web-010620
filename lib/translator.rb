@@ -21,7 +21,7 @@ end
 def get_japanese_emoticon(library, emoticon)
   # code goes here
   english = load_library(library)['get_meaning'][emoticon]
-  load_library(library)['get_meaning'][emoticon] : load_library(library)['get_meaning'][emoticon] ? 
+  load_library(library)['get_meaning'][emoticon] : load_library(library)['get_meaning'][emoticon] ? "Not found"
 end
 
 def get_english_meaning
