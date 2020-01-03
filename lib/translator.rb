@@ -20,16 +20,11 @@ end
 
 def get_japanese_emoticon(library, emoticon)
   # code goes here
-  #japanese = (load_library(library))['get_meaning'][emoticon]
-  #if japanese == nil
-  #  return 'Sorry, that emoticon was not found'
-  #else
-  #  return japanese
-  #end
-  load_library(library)["get_emoticon"].each do |key, value|
-    if key == emoticon
-      puts value
-    end
+  japanese = (load_library(library))['get_meaning'][emoticon]
+  if japanese == nil
+    return 'Sorry, that emoticon was not found'
+  else
+    return japanese
   end
   
 end
