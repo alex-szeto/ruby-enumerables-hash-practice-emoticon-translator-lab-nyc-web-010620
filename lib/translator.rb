@@ -10,7 +10,7 @@ def load_library(arguement)
     'emoticon' => {}
   }
   
-  emoticons.each {
+  emoticons.each { |value, meaning|
     
   }
   
