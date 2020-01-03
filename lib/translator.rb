@@ -10,10 +10,11 @@ def load_library(arguement)
     'emoticon' => {}
   }
   
-  emoticons.each { |meaning, value|
-    library['meaning'][value][1] = meaning 
+  emoticons.each { |key, value|
+    library['meaning'][value][1] = key 
     library['emoticon'][value][0] = value[1]
   }
+  
   
   
 end
