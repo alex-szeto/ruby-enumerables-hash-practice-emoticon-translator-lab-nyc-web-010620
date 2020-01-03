@@ -11,10 +11,8 @@ def load_library(emoticon_file)
   }
   
   emoticons.each { |key, value|
-    english = value[0]
-    japanese = value[1]
-    library['meaning'][japanese] = key 
-    library['emoticon'][english] = japanese
+    library['meaning'][value[1]] = key 
+    library['emoticon'][value[0]] = value[1]
   }
   
   return library
