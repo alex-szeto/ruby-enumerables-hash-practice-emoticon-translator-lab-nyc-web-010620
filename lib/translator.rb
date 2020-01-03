@@ -12,7 +12,7 @@ def load_library(arguement)
   
   emoticons.each { |meaning, value|
     library['meaning'][value][0] = 
-    library['emoticon'][value][1] = 
+    library['emoticon'][value][1] = japa
   }
   
   
