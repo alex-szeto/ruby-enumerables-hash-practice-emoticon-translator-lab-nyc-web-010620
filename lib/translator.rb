@@ -20,9 +20,9 @@ end
 
 def get_japanese_emoticon(emoticon_file, emoticon)
   # code goes here
-  initalize = load_library(emoticon_file)
-  english = initalize['get_meaning'][emoticon]
-  english ? english : "Sorry, that emoticon was not found"
+  emoticon_lib = load_library(emoticon_file)
+  english_meaning = emoticon_lib['get_meaning'][emoticon]
+  english_meaning ? english_meaning : 'Sorry, that emoticon was not found'
 end
 
 def get_english_meaning
