@@ -11,7 +11,8 @@ def load_library(arguement)
   }
   
   emoticons.each { |meaning, value|
-    
+    library = 
+    library =
   }
   
   
