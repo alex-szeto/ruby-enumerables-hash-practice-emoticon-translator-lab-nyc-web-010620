@@ -14,7 +14,7 @@ def load_library(emoticon_file)
     library['get_meaning'][value[1]] = key 
     library['get_emoticon'][value[0]] = value[1]
   }
-  
+end
   return library
 end
 
