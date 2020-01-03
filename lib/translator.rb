@@ -20,7 +20,7 @@ end
 
 def get_japanese_emoticon(library, emoticon)
   # code goes here
-  
+  english_meaning = 
   
   
 end
