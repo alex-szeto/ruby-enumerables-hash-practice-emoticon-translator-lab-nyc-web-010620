@@ -14,7 +14,7 @@ def load_library(emoticon_file)
     english = value[0]
     japanese = value[1]
     library['meaning']japanese = key 
-    library['emoticon']english = value[1]
+    library['emoticon']english = japanese
   }
   
   return library
