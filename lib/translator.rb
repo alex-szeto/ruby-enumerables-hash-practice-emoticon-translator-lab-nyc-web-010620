@@ -5,10 +5,12 @@ def load_library(arguement)
   # code goes here
   emoticons = YAML.load_file('./lib/emoticons.yml')
   
-  emoticons_library = {
+  library = {
     meaning => {},
     emoticon => {}
   }
+  
+  
   
 end
 
