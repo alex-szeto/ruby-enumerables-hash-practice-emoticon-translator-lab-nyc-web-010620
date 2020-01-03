@@ -10,7 +10,9 @@ def load_library(arguement)
     'emoticon' => {}
   }
   
-  
+  emoticons.each {
+    
+  }
   
   
 end
