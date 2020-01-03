@@ -23,6 +23,8 @@ def get_japanese_emoticon(library, emoticon)
   japanese = (load_library(library))['get_meaning'][emoticon]
   if japanese == nil
     return 'Sorry, that emoticon was not found'
+  else
+    return japanese
   end
 end
 
@@ -31,5 +33,7 @@ def get_english_meaning(library, emoticon)
   english = (load_library(library))['get_meaning'][emoticon]
   if english == nil
     return 'Sorry, that emoticon was not found'
+  else
+    return english
   end
 end
