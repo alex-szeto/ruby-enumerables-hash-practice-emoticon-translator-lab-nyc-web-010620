@@ -22,7 +22,6 @@ def get_japanese_emoticon(library, emoticon)
   # code goes here
   english_meaning = load_library(library)['get_meaning'][emoticon]
   
-  
 end
 
 def get_english_meaning
