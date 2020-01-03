@@ -16,11 +16,11 @@ def load_library(emoticon_file)
   }
   
   return library
-  
 end
 
 def get_japanese_emoticon
   # code goes here
+  
 end
 
 def get_english_meaning
