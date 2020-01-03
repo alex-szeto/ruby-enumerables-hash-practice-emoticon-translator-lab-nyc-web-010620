@@ -15,7 +15,7 @@ def load_library(arguement)
     library['emoticon'][value][0] = value[1]
   }
   
-  return emoti
+  return library
   
 end
 
