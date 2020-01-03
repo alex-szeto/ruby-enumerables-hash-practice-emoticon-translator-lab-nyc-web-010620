@@ -18,11 +18,10 @@ def load_library(emoticon_file)
   return library
 end
 
-def get_japanese_emoticon(load, emoticon)
+def get_japanese_emoticon(library, emoticon)
   # code goes here
-  emoticon_lib = load_library(emoticon_file)
-  english_meaning = emoticon_lib['get_meaning'][emoticon]
-  english_meaning ? english_meaning : 'Sorry, that emoticon was not found'
+  english = (load_library(library))['get_meaning'][emoticon]
+  english ? english : 'Sorry, that emoticon was not found'
 end
 
 def get_english_meaning
