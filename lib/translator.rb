@@ -7,7 +7,7 @@ def load_library(arguement)
   
   emoticons_library = {
     meaning =>
-    
+    emoticon =>
   }
   
 end
