@@ -6,13 +6,13 @@ def load_library(emoticon_file)
   emoticons = YAML.load_file('./lib/emoticons.yml')
   
   library = {
-    'meaning' => {},
-    'emoticon' => {}
+    'get_meaning' => {},
+    'get_emoticon' => {}
   }
   
   emoticons.each { |key, value|
-    library['meaning'][value[1]] = key 
-    library['emoticon'][value[0]] = value[1]
+    library['get_meaning'][value[1]] = key 
+    library['get_emoticon'][value[0]] = value[1]
   }
   
   return library
